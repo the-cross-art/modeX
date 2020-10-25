@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009961;
+  color: #ff3f81;
   text-decoration: none;
 }
 
@@ -640,7 +640,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #009961;
+  background: #ff3f81;
   bottom: 0;
   left: 0;
 }
@@ -724,7 +724,7 @@ section {
 .services .icon-box .icon {
   width: 64px;
   height: 64px;
-  background: #009961;
+  background: #ff3f81;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -745,7 +745,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #282828;
+  color: #23153c;
   transition: ease-in-out 0.3s;
 }
 
@@ -757,11 +757,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #009961;
+  border-color: #ff3f81;
 }
 
 .services .icon-box:hover h4 a {
-  color: #009961;
+  color: #ff3f81;
 }
 
 /*--------------------------------------------------------------
