@@ -35,7 +35,6 @@ a:hover {
 #vanta{
   width: 100%;
   height: 100vh;
-  /*background: url("../img/hero-bg.jpg") top center;*/
   background-size: cover;
   position: relative;
 }
@@ -712,6 +711,62 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services .icon-box1 {
+  padding: 60px 30px;
+  transition: all ease-in-out 0.3s;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  border-radius: 18px;
+  border-bottom: 5px solid #fff;
+  height: 337px;
+  width: 253px;
+}
+
+.services .icon-box1 .icon {
+  width: 64px;
+  height: 64px;
+  background: #ff3f81;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.services .icon-box1 .icon i {
+  font-size: 28px;
+}
+
+.services .icon-box1 h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box1 h4 a {
+  color: #23153c;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box1 p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box1:hover {
+  transform: translateY(-10px);
+  border-color: #ff3f81;
+}
+
+.services .icon-box1:hover h4 a {
+  color: #ff3f81;
+}
+
+
 .services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
