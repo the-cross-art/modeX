@@ -32,6 +32,13 @@ a:hover {
   right: 0;
 }
 */
+img {
+  border-radius: 50%;
+  height: 100px;
+}
+.dkimg{
+  height:100px
+}
 
 #butto2 {
    /*height:20px; 
@@ -41,6 +48,18 @@ a:hover {
     top:50%; 
     left:50%;*/
     width: 160px; 
+    margin: 0 auto; 
+    display: block;
+}
+
+#butto3 {
+   /*height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;*/
+    width: 230px; 
     margin: 0 auto; 
     display: block;
 }
@@ -112,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #009961;
+  border: 6px solid #ff3f81;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -159,13 +178,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #009961;
+  background: #ff3f81;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #00b371;
+  background: #ff3f81;
   color: #fff;
 }
 
@@ -831,6 +850,62 @@ section {
 .services .icon-box:hover h4 a {
   color: #ff3f81;
 }
+
+
+.services .icon-box3 {
+  padding: 60px 30px;
+  transition: all ease-in-out 0.3s;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  border-radius: 18px;
+  border-bottom: 5px solid #fff;
+  height: 337px;
+  width: 553px;
+}
+
+.services .icon-box3 .icon {
+  width: 64px;
+  height: 64px;
+  background: #ff3f81;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.services .icon-box3 .icon i {
+  font-size: 28px;
+}
+
+.services .icon-box3 h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box3 h4 a {
+  color: #23153c;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box3 p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box3:hover {
+  transform: translateY(-10px);
+  border-color: #ff3f81;
+}
+
+.services .icon-box3:hover h4 a {
+  color: #ff3f81;
+}
+
 
 /*--------------------------------------------------------------
 # Cta
